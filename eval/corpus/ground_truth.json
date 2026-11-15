@@ -1,0 +1,21 @@
+{
+  "supported": {
+    "basic_monthly_price": {"value": 20, "source": "northstar_basic.md"},
+    "pro_user_limit": {"value": 50, "source": "northstar_pro.md"},
+    "enterprise_retention_days": {"value": 365, "source": "northstar_enterprise.md"},
+    "sso_plan": {"value": "Enterprise", "source": "northstar_security_policy.md"}
+  },
+  "conflicts": [
+    {
+      "claim": "Pro monthly price",
+      "sources": ["northstar_pro.md", "northstar_sales_sheet.md"],
+      "values": [50, 45]
+    },
+    {
+      "claim": "Pro retention days",
+      "sources": ["northstar_pro.md", "northstar_sales_sheet.md"],
+      "values": [90, 60]
+    }
+  ],
+  "missing_everywhere": ["Northstar's uptime SLA percentage"]
+}
