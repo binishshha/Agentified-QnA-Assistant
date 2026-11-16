@@ -24,9 +24,6 @@ __pycache__/
 # Logs
 *.log
 
-# Evaluation output
-eval/results.md
-
 # OS files
 .DS_Store
 Thumbs.db
