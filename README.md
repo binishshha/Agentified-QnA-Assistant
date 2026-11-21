@@ -1,6 +1,6 @@
-# Agentify the Assistant — W16 Task 3
+# Agentify the Assistant
 
-This project extends the W15 document RAG assistant with a bounded agentic research feature. The research endpoint lets the model decide what to do next from the previous tool result: search another document, record supporting or conflicting evidence, ask for clarification, or finish. A fixed pipeline is insufficient because questions such as comparing the current Pro price with a draft sales sheet require the assistant to inspect one source, decide that a second source is relevant, reconcile the results, and only then answer.
+This project extends the RAG assistant with a bounded agentic research feature. The research endpoint lets the model decide what to do next from the previous tool result: search another document, record supporting or conflicting evidence, ask for clarification, or finish. A fixed pipeline is insufficient because questions such as comparing the current Pro price with a draft sales sheet require the assistant to inspect one source, decide that a second source is relevant, reconcile the results, and only then answer.
 
 ## Running the assistant
 
